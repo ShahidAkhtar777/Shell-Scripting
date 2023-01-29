@@ -1,0 +1,19 @@
+What is Shell?
+
+A Shell provides you with an interface to the Unix system. It gathers input from you and executes programs based on that input.
+
+=> Shell scripts are interpreted not compiled.
+
+Commands:
+Show all shells:
+-> cat /etc/shells
+Location of bash
+-> which bash
+
+bash => born again shell
+-> standard GNU shell
+-> improved version of sh
+
+Files created with touch commands have read and write permissions and not execute permissions. Permission modification:
+
+chmod +x hello.sh => Provides execute permission as well to the file.
